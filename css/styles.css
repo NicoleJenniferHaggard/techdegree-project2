@@ -2,26 +2,33 @@
 {
   box-sizing: border-box;
 }
-
+}
+body {
+  background-color: whitesmoke;
+}
 ul {
   padding: 0 40px 10px 40px;
 }
 li {
   list-style: none;
-  font-size: 30px;
+  font-size: 40px;
   font-family: 'Open Sans', sans-serif;
 }
 .button {
   display: flex;
-  margin-top: 5px;
+  margin: 10px;
   justify-content: center;
   padding: 10px 40px 10px 40px;
+  background-color: ghostwhite;
+  border-top: 1px solid ghostwhite;
+  border-right: 1px solid ghostwhite;
+  border-bottom: 1px solid ghostwhite;
+  border-left: 1px solid ghostwhite;
+}
 }
 h1 {
   text-align: center;
   font-family: 'Open Sans', sans-serif;
-  margin: 30px 20px;
-  padding: 20px;
 }
 h2 {
   text-align: center;
@@ -33,12 +40,25 @@ h3 {
   text-align: center;
 }
 div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
   font-family: 'Open Sans', sans-serif;
+
 }
 .project {
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+footer {
+  font-size: 38px;
+  display: flex;
+  justify-content: space-between;
+  font-family: 'Open Sans', sans-serif;
+  border-top: 2px solid lightgrey;
+  margin-left: 25px;
+  margin-right: 25px;
 }
 @media screen and (min-width: 320px){
 .project {

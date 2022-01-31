@@ -1,50 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta name=viewpoint content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="css/styles.css">
-<title>Student Resume</title>
+        <title>Project 2</title>
+        <meta name=viewpoint content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/styles.css">
+
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans" rel="stylesheet">
+
 </head>
 <body>
-<h1 link rel="preconnect" href="https://fonts.googleapis.com">Nicole Haggard</h1>
-<ul link rel="preconnect" href="https://fonts.googleapis.com">
-  <li class=button>HOME</li>
-  <li class=button>PORTFOLIO</li>
-  <li class=button>CONTACT</li>
-</ul>
-<div link rel="preconnect" href="https://fonts.googleapis.com">
-    <img src="images/responsive-layout-profile.png" alt="profile picture" class="project">
-  <p>Hi! I am a front-end web designer who loves resposive deisgn and CSS. I recently finished a degree in front-end web development at Treehouse and am excited to put all my skills to use. </p>
-  <h2 class="heading">PORTFOLIO</h2>
-    <img src="images/portfolio-1.png" alt="marketing page" class="project">
-  <h2 class="page1">Marketing Page</h2>
-  <p>This project shows the front page of a marketing website meant for a specific buisness I'm interested in.</p>
-    <img src="images/portfolio-2.png" alt="search page" class="project">
-  <h2 class=page2>Search Page</h2>
-  <p>This project seacrhes through a specific database to find information that the user is trying to look up.</p>
-      <img src="images/portfolio-3.png" alt="webpage" class="project">
-  <h2 class="page3">Travel App</h2>
-  <p>This project compares travel times based on diffrent transportation meathods and tells you the best one.</p>
-      <img src="images/portfolio-4.png" alt="road map" class="project">
-  <h2 class=page4>Map of Favourite Spots</h2>
-  <p>This project uses mapping apis to plot points for my favourite spots in the city for a do-it-yourself walking tour.</p>
-      <img src="images/portfolio-5.png" alt="photo page" class="project">
-  <h2 class=page5>Photo Gallery</h2>
-  <p> This project shows pictures from a recent trip to the viewer and allows then to easily navigate through photos.</p>
-      <img src="images/portfolio-6.png" alt="a calculator" class="project">
-  <h2 class=page6>Calculator</h2>
-  <p>Someone can enter the numbers they want, and press the big blue button and get the result.</p>
-</div>
-  <div link rel="preconnect" href="https://fonts.googleapis.com">
-    <h3>CONTACT</h3>
-    <p> If you're interested in chatting or want more information about what I've been working on, I'd love to hear from you!</p>
-    <p>Phone +1 &#40;111&#41; 555-1234</p>
-    <p>Email email@yoursite.com<p>
-  </div>
+  <header>
+    <nav>
+        <a id="top"></a>
+        <h1>Nicole Haggard</h1>
 
-  <footer link rel="preconnect" href="https://fonts.googleapis.com">
-    <p>Nicole Haggard</p>
-    <p>Back to top</p>
+        <ul>
+          <li><a href="#" style="color: black">home</a></li>
+          <li><a href="#portfolio" style="color: black">portfolio</a></li>
+          <li><a href="#contact" style="color: black">contact</a></li>
+        </ul>
+      </nav>
+
+
+  <section class="bio">
+    <div=class"photo">
+        <img src="images/responsive-layout-profile.png" alt="profile picture" class="project">
+    </div>
+
+      <p>Hi! I am a front-end web designer who loves resposive deisgn and CSS. I recently finished a degree in front-end web development at Treehouse and am excited to put all my skills to use. </p>
+  </section>
+</header>
+
+<main id="portfolio">
+      <h2>portfolio</h2>
+
+  <section>
+      <img src="images/portfolio-1.png" alt="marketing page" class="project">
+      <h3>Marketing Page</h3>
+      <p>This project shows the front page of a marketing website meant for a specific buisness I'm interested in.</p>
+  </section>
+
+  <section>
+    <img src="images/portfolio-2.png" alt="search page" class="project">
+    <h3>Search Page</h3>
+    <p>This project seacrhes through a specific database to find information that the user is trying to look up.</p>
+  </section>
+
+  <section>
+      <img src="images/portfolio-3.png" alt="webpage" class="project">
+      <h3>Travel App</h3>
+      <p>This project compares travel times based on diffrent transportation meathods and tells you the best one.</p>
+  </section>
+
+  <section>
+      <img src="images/portfolio-4.png" alt="road map" class="project">
+      <h3>Map of Favourite Spots</h3>
+      <p>This project uses mapping apis to plot points for my favourite spots in the city for a do-it-yourself walking tour.</p>
+  </section>
+
+  <section>
+      <img src="images/portfolio-5.png" alt="photo page" class="project">
+      <h3>Photo Gallery</h3>
+      <p> This project shows pictures from a recent trip to the viewer and allows then to easily navigate through photos.</p>
+    </section>
+
+    <section>
+      <img src="images/portfolio-6.png" alt="a calculator" class="project">
+      <h3>Calculator</h3>
+      <p>Someone can enter the numbers they want, and press the big blue button and get the result.</p>
+    </section>
+</main>
+
+  <section id="contact">
+    <h2>contact</h2>
+    <p> If you're interested in chatting or want more information about what I've been working on, I'd love to hear from you!</p>
+    <ul>
+    <li><span>Phone</span> +1 &#40;111&#41; 555-1234</li>
+    <li><span>Email</span> nicole@yoursite.com<li>
+    </ul>
+  </section>
+
+  <footer>
+        <p>Nicole Haggard</p>
+        <p><a href="#top" style="color: black">Back to top</a></p>
   </footer>
-  </body>
+
+</body>
 </html>

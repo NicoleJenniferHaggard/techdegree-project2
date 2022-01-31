@@ -6,6 +6,8 @@
 }
 
 body {
+  display: flex;
+  flex-direction: column;
   text-align: center;
   background: white;
 }
@@ -21,19 +23,24 @@ header {
   background: #f2f2f2;
 }
 
-li {
+nav li {
   color: black;
   list-style: none;
   font-size: 18px;
-  font-family: 'Open Sans', sans-serif;
+  background: white;
+  line-height: 7rem;
 }
 
 section {
-  margin: 4rem;
+  padding: 3rem;
+}
+
+section p {
+  color: #797979;
 }
 
 .project {
-  max-width: 80%;
+  width: 100%;
 }
 
 #portfolio {
@@ -45,7 +52,6 @@ nav ul {
   font-weight: bold;
   margin: 10%;
   padding: 10px 0 10px 0;
-  background: white;
 }
 
 .bio {
@@ -53,9 +59,16 @@ nav ul {
   font-size: 16px;
 }
 
+p {
+  line-height: 4rem;
+  font-size: 16px;
+  padding: 2.5rem;
+}
+
 h1 {
   font-family: 'Open Sans', sans-serif;
   font-weight: bold;
+  padding-top: 5rem;
 }
 
 h2 {
@@ -63,15 +76,15 @@ h2 {
   font-weight: bold;
   text-transform: uppercase;
   font-size: 1rem;
+  line-height: 3rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
 }
 
 h3 {
   text-align: center;
   font-weight: normal;
-}
-
-section {
-  margin-bottom: 5rem;
+  padding: 2rem;
 }
 
 #contact {
@@ -80,23 +93,26 @@ section {
   padding: 5rem;
 }
 
-#contact span {
-  font-weight: normal;
+section li {
+  font-weight: bold;
+  list-style: none;
+  line-height: 8rem;
 }
 
-#contat li {
+li span {
   font-weight: bold;
 }
 
 footer {
   font-weight: bold;
   display: flex;
-  flex-grow: 8;
   justify-content: space-between;
-  font-size: 1.5rem;
+  font-size: 16px;
   padding: 2.5rem;
   border-top: 1px solid lightgrey;
   background-color: #f2f2f2;
+  padding-left: 5rem;
+  padding-right: 5rem;
 }
 
 footer a {

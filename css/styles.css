@@ -135,8 +135,14 @@ display: none;
 		flex-direction: row-reverse;
 		justify-content: space-between;
 		text-align: left;
-		font-size: 3rem;
+		font-size: 18px;
+    padding-right: 4rem;
 }
+
+.bio img {
+  width: 100%;
+}
+
 
 nav ul{
   display: flex;
@@ -156,6 +162,7 @@ nav ul{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    padding-bottom: 3rem;
   }
 
 .col {
@@ -167,6 +174,14 @@ nav ul{
 .col p {
   padding: 0;
   line-height: 1.5em;
+}
+
+#contact {
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: space-between;
+ justify-content: center;
+ padding-bottom: 0;
 }
 
 

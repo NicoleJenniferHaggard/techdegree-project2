@@ -92,18 +92,20 @@ h3 {
   background-color: #f2f2f2;
   margin: 0;
   padding: 2rem;
+  text-align: center;
 }
 
 #contact p {
+  text-align: center;
   padding-bottom: .5rem;
 }
 
 #contact li {
+  text-align: center;
   padding: .5rem;
 }
 
 section li {
-  font-weight: bold;
   list-style: none;
 }
 
@@ -154,12 +156,13 @@ display: none;
 
 .bio p {
   padding-right: 2.5rem;
-  flex-basis: 40%;
+  flex-basis: 50%;
+  font-size: 18px;
 }
 
 .bio img {
   width: 100%;
-  flex-basis: 60%;
+  flex-basis: 50%;
 }
 
 #portfolio h2 {
@@ -188,8 +191,15 @@ display: none;
  display: flex;
  flex-wrap: wrap;
  justify-content: space-between;
- justify-content: center;
+ text-align: center;
  padding-bottom: 0;
+}
+
+#contact h2 {
+  text-align: center;
+}
+
+footer {
 }
 
 
@@ -201,6 +211,43 @@ display: none;
     flex-basis: calc(33.333% - 20px);
   }
 
+  body {
 
+  }
+
+header {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+h1 {
+  justify-content: space-between;
+}
+
+nav ul {
+  justify-content: flex-end;
+}
+
+.bio {
+  flex-basis: 100%;
+}
+
+.bio p {
+  flex-basis: 50%;
+}
+
+.bio img {
+  flex-basis: 50%;
+}
+
+#contact {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  text-align: center;
+
+
+
+}
 
 }

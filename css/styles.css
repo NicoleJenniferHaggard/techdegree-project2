@@ -28,7 +28,7 @@ h1 {
 }
 
 nav {
-  font weight: 400;
+  font-weight: 400;
   letter-spacing: .05em;
   padding: 25px;
 }
@@ -38,6 +38,7 @@ nav ul {
   text-transform: uppercase;
   font-weight: 400;
   margin: 10%;
+  padding-left: 0;
 }
 
 nav li {
@@ -77,7 +78,7 @@ h2 {
   text-align: center;
   font-weight: bold;
   text-transform: uppercase;
-  font-size: 1rem;
+  
   padding-top: 3rem;
   padding-bottom: 2rem;
 }
@@ -98,6 +99,9 @@ h3 {
 #contact p {
   text-align: center;
   padding-bottom: .5rem;
+}
+#contact ul {
+  padding-left: 0;
 }
 
 #contact li {
@@ -121,8 +125,6 @@ footer {
   padding: 2.5rem;
   border-top: 1px solid lightgrey;
   background-color: #f2f2f2;
-  padding-left: 5rem;
-  padding-right: 5rem;
 }
 
 footer a {
@@ -190,8 +192,7 @@ display: none;
 #contact {
  display: flex;
  flex-wrap: wrap;
- justify-content: space-between;
- text-align: center;
+ justify-content: center;
  padding-bottom: 0;
 }
 
@@ -243,11 +244,9 @@ nav ul {
 #contact {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
-  text-align: center;
-
-
-
+  justify-content: center;
 }
+
+
 
 }

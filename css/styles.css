@@ -55,6 +55,7 @@ nav li {
   padding: 15px 0 15px 0;
   background-color: white;
   font-weight: bold;
+  margin-bottom: .5em;
 }
 
 .bio {
@@ -149,8 +150,9 @@ footer a {
 }
 
 .full {
-display: none;
+  display: none;
 }
+
 
 /* tablet */
 @media (min-width: 768px) {
@@ -178,7 +180,6 @@ display: none;
 }
 
 .bio p {
-  padding-right: 2.5rem;
   flex-basis: 50%;
   font-size: 18px;
 }
